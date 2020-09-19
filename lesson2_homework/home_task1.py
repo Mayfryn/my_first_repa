@@ -45,4 +45,4 @@ print(s.rsplit(' '))
 
 #Task9
 task_header(9)
-print(s1.lstrip().rstrip())
+print(s1.strip(' '))

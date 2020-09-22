@@ -27,3 +27,28 @@ print(l)
 l[2:2] = ["eggs", "spam"] #insert on 2 place
 print(l)
 
+s = input("Enter: ")
+
+try:
+    s = int(s)
+    print(s)
+except:
+    print("Error")
+
+s, i = 's', 0
+try:
+    int(s)/i
+except ValueError as e:
+    print(e)
+except ZeroDivisionError:
+    print("Do not divide")
+
+
+while True:
+    s = input("Enter: ")
+    try:
+        s = float(s)
+        print(s)
+        break
+    except ValueError:
+        print("Enter a number: ")

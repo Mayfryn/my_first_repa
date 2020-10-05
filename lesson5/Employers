@@ -1,0 +1,6 @@
+class Employee():
+    """
+
+    """
+    def __init__(self, name='', surname='', age=None, position='', salary=0,):
+        pass

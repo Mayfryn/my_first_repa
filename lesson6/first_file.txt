@@ -1,2 +1,1 @@
-Hi!
-My name is Mayfryn!
+sing_my_song(10, 10, 0

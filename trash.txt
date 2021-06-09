@@ -1,0 +1,32 @@
+# name = input()
+# age = int(input())
+#
+# # место для вашего кода
+# print("{x} is {y} years old".format(x = name, y = age) )
+
+def gen(a=3, b=3, c=0):
+    tmp = b
+    while a:
+        print('la', end='')
+        tmp -= 1
+        while tmp:
+            print('-la', end='')
+            tmp -= 1
+        tmp = b
+        a -= 1
+        if a:
+            print()
+    if c == 1:
+        print("!")
+    elif c == 0:
+        print('.')
+    return
+
+
+
+gen()
+gen(4, 4, 0)
+print()
+gen(4, 4, 1)
+print()
+gen(4, 4, 3)
